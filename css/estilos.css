@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
 nav {
   background-image: url(img/fondo\ moderno.jpeg);
   width: 50%;
@@ -5,10 +7,11 @@ nav {
 }
 
 nav :hover {
+  background-color: #fff;
   font-size: 22px;
   text-decoration: none;
-  color: #082032;
-  text-shadow: 0 0 3px black;
+  color: black;
+  /*text-shadow: 0 0 3px black;*/
   transform: scale(0.5);
   font-weight: bold;
   padding: 0.4rem;
@@ -22,4 +25,10 @@ footer {
   font-size: 15px;
 }
 
+#span{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  padding-top: 30px;
+}
 /*# sourceMappingURL=estilos.css.map */
